@@ -4,5 +4,19 @@
     <Filter Include="source">
       <UniqueIdentifier>{ae333a4e-0cbe-44b9-914e-06fddbff02d4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{debb6d09-62bb-410e-9a92-b0b272ef6c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glad">
+      <UniqueIdentifier>{66f2f84b-4d1c-4557-9919-5a03455816a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\GLAD\src\glad.c">
+      <Filter>external\glad</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
